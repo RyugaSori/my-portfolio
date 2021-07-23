@@ -17,13 +17,13 @@ body {
   font-weight: normal;
   text-align: center;
 }
-@media (min-width: 992px) {
-  .wrapper .content .list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
+.wrapper .content .list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .wrapper .content .list-item {
   margin: 50px 0px;
   padding: 0px 50px;
@@ -40,9 +40,9 @@ body {
 
 .wrapper .content .list-item .text {
   line-height: 1.8rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: bold;
-  color: #666666;
+  color: black;
 }
 .button_omikuji {
   font-size: 50px;
